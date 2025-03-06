@@ -38,7 +38,7 @@ int main()
     
     int x = 3 , y = 4;
     //int c = (x*5)+y
-    int z = ((((x*5)+y)-45)+87)
+    int z = ((((x*5)+y)-45)+87);
     cout<<z;
 
 

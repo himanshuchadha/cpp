@@ -54,61 +54,56 @@
 using namespace std;
 int age;
 
-int cases()
+void cases()
 {
     switch (age)
     {
     case 3:
-        cout<<"you are 3 years old";
+        cout << "you are 3 years old";
         break;
-    
-     case 18:
-        cout<<"you are 18 years old";
+
+    case 18:
+        cout << "you are 18 years old";
         break;
-    
-     case 22:
-        cout<<"you are 22 years old";
+
+    case 22:
+        cout << "you are 22 years old";
         break;
-    
-     case 66:
-        cout<<"you are 66 years old";
+
+    case 66:
+        cout << "you are 66 years old";
         break;
-    
 
     default:
-        cout<<"nothing special in you";
+        cout << "nothing special in you";
         break;
     }
-}  
+}
 
 int main()
 {
-    cout<<"tell me your age"<<endl;
-    cin>>age;
-    if((age<18) && (age > 0))
+    cout << "tell me your age" << endl;
+    cin >> age;
+    if ((age < 18) && (age > 0))
     {
-        cout<<"you cannot come to the party"<<endl;
+        cout << "you cannot come to the party" << endl;
     }
     else if (age == 18)
     {
-        cout<<"you can come but still a kid"<<endl;
+        cout << "you can come but still a kid" << endl;
     }
     else if (age < 1)
     {
-        cout<<"you liar"<<endl;
+        cout << "you liar" << endl;
     }
-    
-    else 
+    else
     {
-        cout<<"you can enjoy my boy"<<endl;
+        cout << "you can enjoy my boy" << endl;
     }
 
     cases();
-    
+
     return 0;
 }
-
-
-int hii = 6;
 
 
